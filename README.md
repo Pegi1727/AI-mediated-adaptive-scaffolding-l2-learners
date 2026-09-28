@@ -11,7 +11,7 @@
 
 ## 📌 Graphical Abstract
 
-![Graphical Abstract](figures/graphical abstract.png)
+![Graphical Abstract](Figures/graphical%20abstract.png)
 
 > **Visual Overview:** Schematic representation of the study trajectory—from institutional symbolic violence and communicative freeze to non-evaluative adaptive scaffolding, micro-success cycles, and the resulting reconfiguration of L2 academic identity.
 
@@ -29,13 +29,13 @@ Conventional classroom pedagogies often entrench institutional asymmetries, inad
 ## 🖼️ Methodological & Theoretical Architecture
 
 ### Figure 1: Theoretical Framework and Research Model
-![Figure 1: Theoretical Framework](figures/1.png)
+![Figure 1: Theoretical Framework](Figures/1.png)
 *Integration of Vygotskyan sociocultural theory (Zone of Proximal Development) with Bourdieusian critical sociolinguistics (habitus, symbolic capital, and field restructuring) mediating AI-assisted interaction.*
 
 ---
 
 ### Figure 2: Intervention Design & Scaffolding-Fading Protocol
-![Figure 2: Intervention Protocol](figures/2.png)
+![Figure 2: Intervention Protocol](Figures/2.png)
 *Detailed 5-stage scaffolding and systematic fading pipeline, participant progression, cognitive diagnostic micro-assessments, and iterative autonomy transfer.*
 
 ---
@@ -55,7 +55,7 @@ Statistical reproduction of the primary achievement outcome via paired-samples $
 ---
 
 ### Figure 3: Quantitative Findings (Achievement & Self-Efficacy)
-![Figure 3: Quantitative Results](figures/3.jpg)
+![Figure 3: Quantitative Results](Figures/3.jpg)
 *Comparative distributions of pre- and post-intervention scores, showing profound shifts across all quartile bands and self-efficacy metrics.*
 
 ---
@@ -76,7 +76,7 @@ Analysis of the 12-item bilingual post-intervention instrument across three core
 ## 🧠 Qualitative Synthesis & Thematic Architecture
 
 ### Figure 4: Qualitative Findings & Identity Reconfiguration
-![Figure 4: Qualitative Findings](figures/4.png)
+![Figure 4: Qualitative Findings](Figures/4.png)
 *Five-theme grounded model leading to Reconfigured Academic Identity: (1) Neutralization of the Evaluative Gaze, (2) Low-Stakes Iteration, (3) Internalization of Linguistic Agency, (4) Restoration of Legitimate Speaker Status, and (5) Rescaled Future Self-Guides.*
 
 ---
@@ -104,15 +104,14 @@ Analysis of the 12-item bilingual post-intervention instrument across three core
 ├── config.yml                         # Global pipeline parameter specifications
 ├── environment.yml                    # Conda environment definition file
 ├── requirements.txt                   # Standard pip dependencies
-├── mkdocs.yml                         # Documentation site configuration
 ├── data/                              # Verified raw and processed empirical data
 │   ├── Full_Raw_Data.xlsx
 │   ├── Complete_Individual_Data_and_Questionnaire_Analysis.xlsx
 │   ├── pre_post_scores_full_50students.csv
 │   ├── questionnaire_post_intervention_corrected.csv
 │   └── questionnaire_post_intervention_raw.csv
-├── figures/                           # High-resolution figures and graphical abstract
-│   ├── graphical_abstract.png
+├── Figures/                           # High-resolution figures and graphical abstract
+│   ├── graphical abstract.png
 │   ├── 1.png
 │   ├── 2.png
 │   ├── 3.jpg

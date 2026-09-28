@@ -11,7 +11,7 @@
 
 ## 📌 Graphical Abstract
 
-![Graphical Abstract](figures/graphical_abstract.png)
+![Graphical Abstract](figures/graphical abstract.png)
 
 > **Visual Overview:** Schematic representation of the study trajectory—from institutional symbolic violence and communicative freeze to non-evaluative adaptive scaffolding, micro-success cycles, and the resulting reconfiguration of L2 academic identity.
 

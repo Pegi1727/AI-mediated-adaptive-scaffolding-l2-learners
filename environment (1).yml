@@ -1,0 +1,15 @@
+name: reproducibility-package
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pandas>=2.0
+  - scipy>=1.10
+  - matplotlib>=3.7
+  - openpyxl>=3.1
+  - jupyter
+  - pytest
+  - r-base>=4.2
+  - r-readxl

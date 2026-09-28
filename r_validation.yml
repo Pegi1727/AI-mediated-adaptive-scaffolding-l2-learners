@@ -1,0 +1,52 @@
+name: R validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  r-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "release"
+
+      - name: Install R dependencies
+        run: |
+          install.packages(c("readxl"), repos = "https://cloud.r-project.org")
+
+      - name: Session information
+        run: Rscript -e 'sessionInfo()'
+
+      - name: Environment check
+        run: |
+          Rscript -e 'stopifnot(getRversion() >= "4.2.0"); cat("R", as.character(getRversion()), "OK\n")'
+          Rscript -e 'stopifnot(requireNamespace("readxl", quietly=TRUE)); cat("readxl OK\n")'
+
+      - name: Run R analysis scripts
+        run: |
+          Rscript R/01_import_validate.R
+          Rscript R/02_prepare_achievement.R
+          Rscript R/03_descriptives.R
+          Rscript R/04_assumption_tests.R
+          Rscript R/05_inferential_analysis.R
+          Rscript R/06_tables_figures_report.R
+
+      - name: Verify R outputs
+        run: |
+          test -s outputs/validation_report_R.csv
+
+      - name: Upload R outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: r-outputs
+          path: outputs/
+          if-no-files-found: warn

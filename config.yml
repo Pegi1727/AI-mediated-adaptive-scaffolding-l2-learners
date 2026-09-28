@@ -1,0 +1,31 @@
+# Analysis configuration; paths are relative to the repository root.
+paths:
+  raw_data: data/Full_Raw_Data.xlsx
+  achievement_data: data/pre_post_scores_full_50students.csv
+  questionnaire_raw: data/questionnaire_post_intervention_raw.csv
+  questionnaire_data: data/questionnaire_post_intervention_corrected.csv
+  outputs: outputs
+  figures: figures
+  python_scripts: python
+  r_scripts: R
+
+analysis:
+  alpha: 0.05
+  confidence_level: 0.95
+  alternative: two-sided
+  paired_design: true
+  expected_students: 50
+  expected_questionnaire_items: 12
+  binary_item_values: [0, 1]
+  questionnaire_subscales:
+    Sub1: [Q1, Q2, Q3, Q4]
+    Sub2: [Q5, Q6, Q7, Q8]
+    Sub3: [Q9, Q10, Q11, Q12]
+  thresholds:
+    minimum_valid_students: 50
+    maximum_missing_fraction: 0.0
+
+reproducibility:
+  python_random_seed: 2026
+  r_random_seed: 2026
+  deterministic_figures: true

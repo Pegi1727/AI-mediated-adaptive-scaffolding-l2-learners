@@ -1,6 +1,6 @@
 # Dismantling Symbolic Violence: AI-Mediated Adaptive Scaffolding and the Reconfiguration of Academic Identity among Low-Attaining L2 Learners
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23024342.svg)](https://doi.org/10.5281/zenodo.23024342)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://www.python.org/)
 [![R >= 4.2](https://img.shields.io/badge/R-%3E%3D4.2-276DC3.svg)](https://www.r-project.org/)

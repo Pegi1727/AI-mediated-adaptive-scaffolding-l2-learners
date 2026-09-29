@@ -90,8 +90,20 @@ Analysis of the 12-item bilingual post-intervention instrument across three core
 3. **From Self-Censorship to Legitimate Speaker:**
    Micro-successes within non-threatening interactions accumulate, catalyzing a qualitative restructuring of learners' academic identity. Participants no longer perceive themselves as structurally deficient, but as capable, agentive language users.
 
----
-
+-----------------------------------------------------
+@dataset{merrikhi_2026_zenodo_23024342,
+  author       = {Merrikhi, Pegah},
+  title        = {{Reproducibility Package for "Dismantling Symbolic Violence: 
+                   AI-Mediated Adaptive Scaffolding and the Reconfiguration 
+                   of Academic Identity among Low-Attaining L2 Learners"}},
+  month        = sep,
+  year         = {2026},
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.23024342},
+  url          = {https://doi.org/10.5281/zenodo.23024342}
+}
+---------------------------------------------------------------------
 ## 📂 Repository Directory Structure
 ```text
 ├── .github/
